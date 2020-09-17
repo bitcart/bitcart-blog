@@ -20,7 +20,6 @@
               {{ article.title }}
             </div>
             <div class="summary-post text-base text-justify">
-              {{ article.description }}
               <div class="flex flex-row justify-between mt-4">
                 <NuxtLink
                   :to="{ name: 'slug', params: { slug: article.slug } }"
