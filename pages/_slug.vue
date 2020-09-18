@@ -19,7 +19,7 @@
         </div>
       </div>
     </header>
-    <div class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto">
+    <div class="prose prose-lg mx-auto">
       <nuxt-content :document="article" />
     </div>
   </div>

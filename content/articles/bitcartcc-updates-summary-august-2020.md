@@ -271,9 +271,9 @@ By using BitCCl, you can write a small script:
 
 ```python
 @on(ProductBought(1))
-    def func(product):
-        user = register_user(product.buyer_email, password(8))
-        send_email(product.buyer_email, template("bought", {"email": user.email, "password": user.password}))
+def func(product):
+    user = register_user(product.buyer_email, password(8))
+    send_email(product.buyer_email, template("bought", {"email": user.email, "password": user.password}))
 ```
 
 This small script means:
