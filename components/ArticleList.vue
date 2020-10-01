@@ -45,7 +45,6 @@
               </div>
             </div>
           </div>
-          </nuxtlinkv-if="article.img">
         </div>
       </div>
     </div>
