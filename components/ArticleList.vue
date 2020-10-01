@@ -13,7 +13,6 @@
             class="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center"
             :style="{ backgroundImage: `url('${article.img}')` }"
           />
-          </NuxtLink>
           <div class="w-full bg-white -mt-10 shadow-lg rounded-lg overflow-hidden p-5">
             <div class="header-content inline-flex">
               <div class="category-badge flex-1  h-4 w-4 m rounded-full m-1 bg-purple-100">
