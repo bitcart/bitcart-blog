@@ -35,30 +35,6 @@ export default {
       articles,
       categories
     }
-  },
-  computed: {
-    isDarkMode () {
-      if (process.browser) {
-        return window.matchMedia('(prefers-color-scheme: dark)').matches
-      }
-      return false
-    }
-  },
-  head () {
-    return {
-      title: 'BitcartCC Blog',
-      titleTemplate: '%s - BitcartCC Official Blog',
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'BitcartCC Official Blog'
-        }
-      ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: this.isDarkMode ? '/favicon_dark.ico' : '/favicon.ico' }]
-    }
   }
 }
 </script>
