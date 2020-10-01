@@ -6,10 +6,11 @@
         :key="category.name"
         class="xs:w-full md:w-1/6 px-2 text-center"
       >
-        <NuxtLink :to="`category/${category.name}`" class="">
-          <p
-            class="font-bold text-gray-600 uppercase tracking-wider font-medium text-ss"
-          >
+        <NuxtLink
+          :to="`category/${category.name}`"
+          class=""
+        >
+          <p class="font-bold text-gray-600 uppercase tracking-wider font-medium text-ss">
             {{ category.name }}
           </p>
         </NuxtLink>
