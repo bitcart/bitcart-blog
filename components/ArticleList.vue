@@ -10,10 +10,12 @@
           <NuxtLink
             v-if="article.img"
             :to="{ name: 'slug', params: { slug: article.slug } }"
-            class="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center"
-            :style="{ backgroundImage: `url('${article.img}')` }"
-          />
-          <div class="w-full bg-white -mt-10 shadow-lg rounded-lg overflow-hidden p-5">
+            class="image-box bg-gray-300 h-56 w-full overflow-hidden relative rounded-lg shadow-md"
+          >
+            <img :src="article.img" class="fg w-full z-10 pt-1 border-none absolute object-contain">
+            <img :src="article.img" class="bg w-full h-full absolute object-cover">
+          </NuxtLink>
+          <div class="w-full bg-white -mt-10 shadow-lg z-0 rounded-lg overflow-hidden p-5">
             <div class="header-content inline-flex">
               <div class="category-badge flex-1  h-4 w-4 m rounded-full m-1 bg-purple-100">
                 <div class="h-2 w-2 rounded-full m-1 bg-purple-500" />
@@ -60,3 +62,14 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.image-box {
+  img.bg {
+    filter: brightness(0.8) blur(15px);
+  }
+  img.fg {
+    height: calc(100% - 2.5rem - 0.5rem);
+  }
+}
+</style>
