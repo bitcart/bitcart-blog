@@ -1,8 +1,6 @@
 <template>
   <div>
-    <p
-      class="font-bold uppercase tracking-wider text-3xl text-center"
-    >
+    <p class="font-bold uppercase tracking-wider text-3xl text-center">
       {{ category.name }}
     </p>
     <ArticleList :articles="articles" />
@@ -11,18 +9,20 @@
 
 <script>
 export default {
-  async asyncData ({ $content, params, error }) {
+  async asyncData({ $content, params, error }) {
     try {
-      const category = await $content('categories', params.category).fetch()
-      const articles = await $content('articles')
+      const category = await $content("categories", params.category).fetch()
+      const articles = await $content("articles")
         .where({ category: { $eq: category.name } })
-        .sortBy('createdAt', 'asc')
+        .sortBy("createdAt", "asc")
         .fetch()
       return {
         articles,
-        category
+        category,
       }
-    } catch { error({ statusCode: 404, message: 'Category not found' }) }
-  }
+    } catch {
+      error({ statusCode: 404, message: "Category not found" })
+    }
+  },
 }
 </script>

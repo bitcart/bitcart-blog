@@ -7,13 +7,22 @@
     </div>
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
       <div class="lg:flex-grow">
-        <a href="https://bitcartcc.com" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
+        <a
+          href="https://bitcartcc.com"
+          class="block mt-4 lg:inline-block lg:mt-0 mr-4"
+        >
           Home
         </a>
-        <NuxtLink to="/" class="block mt-4 lg:inline-block lg:mt-0 mr-4 text-blue-500 font-medium">
+        <NuxtLink
+          to="/"
+          class="block mt-4 lg:inline-block lg:mt-0 mr-4 text-blue-500 font-medium"
+        >
           Blog
         </NuxtLink>
-        <a href="https://docs.bitcartcc.com" class="block mt-4 lg:inline-block lg:mt-0">
+        <a
+          href="https://docs.bitcartcc.com"
+          class="block mt-4 lg:inline-block lg:mt-0"
+        >
           Docs
         </a>
       </div>

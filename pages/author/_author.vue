@@ -1,8 +1,6 @@
 <template>
   <div>
-    <p
-      class="font-bold uppercase tracking-wider text-3xl text-center"
-    >
+    <p class="font-bold uppercase tracking-wider text-3xl text-center">
       {{ author }}
     </p>
     <ArticleList :articles="articles" />
@@ -11,16 +9,18 @@
 
 <script>
 export default {
-  async asyncData ({ $content, params, error }) {
-    const articles = await $content('articles')
+  async asyncData({ $content, params, error }) {
+    const articles = await $content("articles")
       .where({ author: { $eq: params.author } })
-      .sortBy('createdAt', 'asc')
+      .sortBy("createdAt", "asc")
       .fetch()
-    if (articles.length === 0) { error({ statusCode: 404, message: 'Author not found' }) }
+    if (articles.length === 0) {
+      error({ statusCode: 404, message: "Author not found" })
+    }
     return {
       articles,
-      author: params.author
+      author: params.author,
     }
-  }
+  },
 }
 </script>
