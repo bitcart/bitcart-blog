@@ -44,6 +44,12 @@ export default {
       error({ statusCode: 404, message: "Article not found" })
     }
   },
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" }
+      return new Date(date).toLocaleDateString("en", options)
+    },
+  },
   head() {
     return {
       title: this.article.title,
@@ -59,12 +65,6 @@ export default {
         },
       ],
     }
-  },
-  methods: {
-    formatDate(date) {
-      const options = { year: "numeric", month: "long", day: "numeric" }
-      return new Date(date).toLocaleDateString("en", options)
-    },
   },
 }
 </script>
