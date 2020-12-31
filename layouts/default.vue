@@ -3,7 +3,7 @@
     <TheHeader />
     <Nuxt />
     <footer class="flex justify-center border-gray-500 border-t-2">
-      <p class="mt-4">© BitcartCC 2018-2020</p>
+      <p class="mt-4">© BitcartCC 2018-{{ new Date().getFullYear() }}</p>
     </footer>
   </div>
 </template>
