@@ -12,7 +12,7 @@ export default {
   async asyncData({ $content, params, error }) {
     const articles = await $content("articles")
       .where({ author: { $eq: params.author } })
-      .sortBy("createdAt", "asc")
+      .sortBy("createdAt", "desc")
       .fetch()
     if (articles.length === 0) {
       error({ statusCode: 404, message: "Author not found" })

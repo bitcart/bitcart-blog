@@ -3,6 +3,7 @@ title: BitcartCC First Versioned Release 0.0.0.1, Let's Celebrate!
 img: https://github.com/bitcartcc/bitcart-media/raw/master/logo.png
 author: MrNaif2018
 category: releases
+createdAt: "2020-10-16T22:39:34"
 ---
 
 Our first versioned release is out!

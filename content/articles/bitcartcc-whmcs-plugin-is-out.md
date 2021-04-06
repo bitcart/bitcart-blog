@@ -3,6 +3,7 @@ title: BitcartCC WHMCS plugin is out!
 img: https://raw.githubusercontent.com/bitcartcc/whmcs-plugin/master/screenshots/screenshot1.png
 author: MrNaif2018
 category: plugins
+createdAt: "2020-10-06T17:41:21"
 ---
 
 Recently we have released a new plugin - BitcartCC Checkout for WHMCS.

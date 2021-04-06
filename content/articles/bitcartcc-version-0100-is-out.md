@@ -3,6 +3,7 @@ title: BitcartCC Version 0.1.0.0 is out!
 img: https://github.com/bitcartcc/bitcart-media/raw/master/logo.png
 author: MrNaif2018
 category: releases
+createdAt: "2020-12-25T16:20:32"
 ---
 
 BitcartCC Version 0.1.0.0 released! Lightning network checkout, better currency formatting, improved checkout and more!

@@ -3,6 +3,7 @@ title: BitcartCC Version 0.2.0.0 is out!
 img: https://github.com/bitcartcc/bitcart-media/raw/master/logo.png
 author: MrNaif2018
 category: releases
+createdAt: "2021-01-22T22:06:16"
 ---
 
 BitcartCC Version 0.2.0.0 released! Payment handling improvements, more customization, better security and UX!

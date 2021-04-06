@@ -14,7 +14,7 @@ export default {
       const category = await $content("categories", params.category).fetch()
       const articles = await $content("articles")
         .where({ category: { $eq: category.name } })
-        .sortBy("createdAt", "asc")
+        .sortBy("createdAt", "desc")
         .fetch()
       return {
         articles,

@@ -3,6 +3,7 @@ title: BitcartCC Updates Summary August 2020
 img: https://github.com/bitcartcc/bitcart-media/raw/master/logo.png
 author: MrNaif2018
 category: releases
+createdAt: "2020-09-17T21:14:28"
 ---
 
 BitcartCC has gone through a few updates since our [last updates summary](https://read.cash/@BitcartCC/bitcartcc-update-api-keys-management-less-configuration-more-features-d546eb75).
@@ -151,11 +152,11 @@ Product template determines how each product is displayed.
 
 When selecting template to use, here is the order how templates are picked up:
 
-1) If this product or store has template selected, it will be used
+1. If this product or store has template selected, it will be used
 
-2) If it has no template selected, default global store or product template will be used (named `store` or `product`), if exists
+2. If it has no template selected, default global store or product template will be used (named `store` or `product`), if exists
 
-3) If none of templates above are customized, [default templates](https://github.com/bitcartcc/bitcart/tree/master/api/templates) are used
+3. If none of templates above are customized, [default templates](https://github.com/bitcartcc/bitcart/tree/master/api/templates) are used
 
 Below is a group of screenshots showing how to customize templates:
 
@@ -426,101 +427,101 @@ Electrum is in progress of updating to 4.0.2
 
 Here is a list of changes across releases, which are also important, but couldn't fit into other categories:
 
-*   Admin panel image now weights almost two times less than before (423->256 MB)!
+- Admin panel image now weights almost two times less than before (423->256 MB)!
 
-*   Hidden details are now formatted correctly, so for example your xpub won't be spread across 12 lines :D
+- Hidden details are now formatted correctly, so for example your xpub won't be spread across 12 lines :D
 
-*   Fixed a rare bug when worker started before database and couldn't work afterwards, it now starts after backend (so when database is up)
+- Fixed a rare bug when worker started before database and couldn't work afterwards, it now starts after backend (so when database is up)
 
-*   Reduced image size of store image for approximately 209 megabytes
+- Reduced image size of store image for approximately 209 megabytes
 
-    Reduced image sizes of all daemons by 40-80 megabytes
+  Reduced image sizes of all daemons by 40-80 megabytes
 
-*   Now daemons data is finally persistent, so no need to wait for resync after you reboot your server.
+- Now daemons data is finally persistent, so no need to wait for resync after you reboot your server.
 
-    To open data directory on your server, run
+  To open data directory on your server, run
 
-    `cd /var/lib/docker/volumes/compose_bitcoin_datadir/_data/` for bitcoin, replace `bitcoin` with coin's component name
+  `cd /var/lib/docker/volumes/compose_bitcoin_datadir/_data/` for bitcoin, replace `bitcoin` with coin's component name
 
-    If using custom deployment, also replace `compose` with your custom deployment name.
+  If using custom deployment, also replace `compose` with your custom deployment name.
 
-*   Disabled lightning by default to reduce memory usage, it can still be enabled for needed coins by running
+- Disabled lightning by default to reduce memory usage, it can still be enabled for needed coins by running
 
-    export COINNAME_LIGHTNING=true
+  export COINNAME_LIGHTNING=true
 
-    ./setup.sh
+  ./setup.sh
 
-    Where `COINNAME` is coin code.
+  Where `COINNAME` is coin code.
 
-*   Fixed custom deployments, so now docker stack is not named `-deploymentname`, but `deploymentname` as it should be.
+- Fixed custom deployments, so now docker stack is not named `-deploymentname`, but `deploymentname` as it should be.
 
-*   Card stats fixed, on mobile one card takes full screen (more readable), and on desktop the bug with cards of different heights is fixed.
+- Card stats fixed, on mobile one card takes full screen (more readable), and on desktop the bug with cards of different heights is fixed.
 
-*   Profile and change theme buttons are shown on mobile too now
+- Profile and change theme buttons are shown on mobile too now
 
-*   Important data model update, each model now has `user_id` stored directly, improving performance a lot by avoiding SQL joins, and fixing many rare bugs
+- Important data model update, each model now has `user_id` stored directly, improving performance a lot by avoiding SQL joins, and fixing many rare bugs
 
-*   Nginx version isn't disclosed anymore for better security
+- Nginx version isn't disclosed anymore for better security
 
-*   It is now possible to change exchange rates provider when using core daemons, by running:
+- It is now possible to change exchange rates provider when using core daemons, by running:
 
-    `export COINNAME_FIAT_EXCHANGE=exchange`
+  `export COINNAME_FIAT_EXCHANGE=exchange`
 
-    Where `COINNAME` is coin symbol (btc, bch, ltc, gzro, bsty) and exchange is exchange to use, for example (CoinGecko, CoinDesk and others)
+  Where `COINNAME` is coin symbol (btc, bch, ltc, gzro, bsty) and exchange is exchange to use, for example (CoinGecko, CoinDesk and others)
 
-    Default exchange used for fiat rates is CoinGecko for all daemons.
+  Default exchange used for fiat rates is CoinGecko for all daemons.
 
-    When enabling tor support btc daemon switches to CoinDesk because of cloudflare blocking tor.
+  When enabling tor support btc daemon switches to CoinDesk because of cloudflare blocking tor.
 
-*   Also it is now possible to enable proxy (socks4 or socks5 proxies) for daemon, by running:
+- Also it is now possible to enable proxy (socks4 or socks5 proxies) for daemon, by running:
 
-    `export COINNAME_PROXY_URL=proxyurl`
+  `export COINNAME_PROXY_URL=proxyurl`
 
-    `proxyurl` is in format
+  `proxyurl` is in format
 
-    `protocol://[username:password@]host[:port]`
+  `protocol://[username:password@]host[:port]`
 
-*   Changes in docker generator:
+- Changes in docker generator:
 
-    `load_env.sh` script was added, which is useful in custom deployments (multiple instances on same server)
+  `load_env.sh` script was added, which is useful in custom deployments (multiple instances on same server)
 
-    Usage:
+  Usage:
 
-    `source load_env.sh`
+  `source load_env.sh`
 
-    It was added because with multiple deployments on one server environment variables get mixed, via this script current deployment directory is used to load environment variables
+  It was added because with multiple deployments on one server environment variables get mixed, via this script current deployment directory is used to load environment variables
 
-*   It is now possible to run a custom version of generator with setup scripts
+- It is now possible to run a custom version of generator with setup scripts
 
-    Via `BITCARTGEN_DOCKER_IMAGE` custom image can be used for generating,
+  Via `BITCARTGEN_DOCKER_IMAGE` custom image can be used for generating,
 
-    if `mrnaif/docker-compose-generator:local` name is used, image is built from source
+  if `mrnaif/docker-compose-generator:local` name is used, image is built from source
 
-    Components without images are removed first to not conflict with other generator rules
+  Components without images are removed first to not conflict with other generator rules
 
-*   Generator now produces reproducible results
+- Generator now produces reproducible results
 
-*   Image sizes of admin panel and store are now decreased even more!
+- Image sizes of admin panel and store are now decreased even more!
 
-    Admin:
+  Admin:
 
-    Before: 329 MB uncompressed, 81 MB compressed
+  Before: 329 MB uncompressed, 81 MB compressed
 
-    After: 125 MB uncompressed, 36 MB compressed
+  After: 125 MB uncompressed, 36 MB compressed
 
-    Store:
+  Store:
 
-    Before: 313 MB compressed, 85 MB compressed
+  Before: 313 MB compressed, 85 MB compressed
 
-    After: 118 MB compressed, 36 MB compressed
+  After: 118 MB compressed, 36 MB compressed
 
-    It now takes only a second or two to download updated image!
+  It now takes only a second or two to download updated image!
 
-*   BitCCL version 0.0.4 released! Built-in HTTP Client and BitcartCC SDK, new events and plugin system!
+- BitCCL version 0.0.4 released! Built-in HTTP Client and BitcartCC SDK, new events and plugin system!
 
-*   We now have contributor guidelines set up for all our repositories!
+- We now have contributor guidelines set up for all our repositories!
 
-*   SDK methods are now tested better
+- SDK methods are now tested better
 
 ## Conclusion
 

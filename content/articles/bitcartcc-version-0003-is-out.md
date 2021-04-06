@@ -3,6 +3,7 @@ title: BitcartCC Version 0.0.0.3 is out!
 img: https://github.com/bitcartcc/bitcart-media/raw/master/logo.png
 author: MrNaif2018
 category: releases
+createdAt: "2020-10-25T17:41:16"
 ---
 
 BitcartCC Version 0.0.0.3 released! Server logs, admin panel improvements on mobile, search speed-up, bug fixes and usability improvements!
