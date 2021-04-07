@@ -1,5 +1,5 @@
 ---
-title: BitcartCC Versions 0.3.0.0 and 0.0.0.4 are out!
+title: BitcartCC Versions 0.3.0.0 and 0.4.0.0 are out!
 img: https://github.com/bitcartcc/bitcart-media/raw/master/logo.png
 author: MrNaif2018
 category: releases
@@ -158,10 +158,10 @@ But there are a few backwards-incompatible changes between versions, as describe
 
 Summary:
 
-If you are upgrading from versions earlier than 0.0.0.3, you have to migrate your environment variables. You have two ways:
+If you are upgrading from versions earlier than 0.3.0.0, you have to migrate your environment variables. You have two ways:
 
 1. Switch to one-domain mode, by unsetting all `_HOST` and `_URL` variables and setting `BITCART_HOST` only, see [One domain support](#one-domain-support)
-2. Continue using the default mode before 0.0.0.3: rename your `_URL` variables to `_API_URL` ones, see [Breaking change to improve readability](#breaking-change-to-improve-readability)
+2. Continue using the default mode before 0.3.0.0: rename your `_URL` variables to `_API_URL` ones, see [Breaking change to improve readability](#breaking-change-to-improve-readability)
 
 And in both cases, you should re-run `./setup.sh`, in order for SSH setup to work.
 
