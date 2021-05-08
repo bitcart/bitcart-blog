@@ -10,6 +10,7 @@
         <a
           href="https://bitcartcc.com"
           class="block mt-4 lg:inline-block lg:mt-0 mr-4"
+          target="_blank"
         >
           Home
         </a>
@@ -21,9 +22,17 @@
         </NuxtLink>
         <a
           href="https://docs.bitcartcc.com"
-          class="block mt-4 lg:inline-block lg:mt-0"
+          class="block mt-4 lg:inline-block lg:mt-0 mr-4"
+          target="_blank"
         >
           Docs
+        </a>
+        <a
+          href="https://github.com/orgs/bitcartcc/projects/1"
+          class="block mt-4 lg:inline-block lg:mt-0"
+          target="_blank"
+        >
+          Roadmap
         </a>
       </div>
       <div>
