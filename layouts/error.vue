@@ -2,7 +2,14 @@
   <div>
     <div class="bg-gray-100 flex items-center justify-center mb-2">
       <div
-        class="container flex flex-col md:flex-row items-center justify-center text-gray-700"
+        class="
+          container
+          flex flex-col
+          md:flex-row
+          items-center
+          justify-center
+          text-gray-700
+        "
       >
         <div class="max-w-md">
           <div class="text-5xl font-dark font-bold">
@@ -19,7 +26,24 @@
           </div>
           <NuxtLink to="/">
             <button
-              class="px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:shadow-outline-blue bg-blue-600 active:bg-blue-600 hover:bg-blue-700"
+              class="
+                px-4
+                inline
+                py-2
+                text-sm
+                font-medium
+                leading-5
+                shadow
+                text-white
+                transition-colors
+                duration-150
+                border border-transparent
+                rounded-lg
+                focus:outline-none focus:shadow-outline-blue
+                bg-blue-600
+                active:bg-blue-600
+                hover:bg-blue-700
+              "
             >
               Back to homepage
             </button>

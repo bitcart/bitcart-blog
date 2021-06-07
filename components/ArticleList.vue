@@ -5,12 +5,30 @@
         <div
           v-for="article of articles"
           :key="article.slug"
-          class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto"
+          class="
+            p-4
+            md:w-1/3 md:mb-0
+            mb-6
+            flex flex-col
+            justify-center
+            items-center
+            max-w-sm
+            mx-auto
+          "
         >
           <NuxtLink
             v-if="article.img"
             :to="{ name: 'slug', params: { slug: article.slug } }"
-            class="image-box bg-gray-300 h-56 w-full overflow-hidden relative rounded-lg shadow-md"
+            class="
+              image-box
+              bg-gray-300
+              h-56
+              w-full
+              overflow-hidden
+              relative
+              rounded-lg
+              shadow-md
+            "
           >
             <img
               :src="article.img"
@@ -22,11 +40,29 @@
             />
           </NuxtLink>
           <div
-            class="w-full bg-white -mt-10 shadow-lg z-0 rounded-lg overflow-hidden p-5"
+            class="
+              w-full
+              bg-white
+              -mt-10
+              shadow-lg
+              z-0
+              rounded-lg
+              overflow-hidden
+              p-5
+            "
           >
             <div class="header-content inline-flex">
               <div
-                class="category-badge flex-1 h-4 w-4 m rounded-full m-1 bg-purple-100"
+                class="
+                  category-badge
+                  flex-1
+                  h-4
+                  w-4
+                  m
+                  rounded-full
+                  m-1
+                  bg-purple-100
+                "
               >
                 <div class="h-2 w-2 rounded-full m-1 bg-purple-500" />
               </div>

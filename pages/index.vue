@@ -8,7 +8,14 @@
       >
         <NuxtLink :to="`category/${category.name}`" class="">
           <p
-            class="font-bold text-gray-600 uppercase tracking-wider font-medium text-ss"
+            class="
+              font-bold
+              text-gray-600
+              uppercase
+              tracking-wider
+              font-medium
+              text-ss
+            "
           >
             {{ category.name }}
           </p>
