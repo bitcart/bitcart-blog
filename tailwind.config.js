@@ -5,19 +5,8 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
+  mode: "jit",
   theme: {
-    typography: {
-      default: {
-        css: {
-          "code::before": {
-            content: "",
-          },
-          "code::after": {
-            content: "",
-          },
-        },
-      },
-    },
     screens: {
       xs: "320px",
       sm: "640px",
@@ -38,6 +27,18 @@ module.exports = {
       4: "4px",
     },
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            "code::before": {
+              content: "",
+            },
+            "code::after": {
+              content: "",
+            },
+          },
+        },
+      },
       colors: {
         cyan: "#9cdbff",
       },
