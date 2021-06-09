@@ -1,6 +1,7 @@
 {
   "name": "bitcart-blog",
   "version": "1.0.0",
+  "description": "BitcartCC Official Blog",
   "private": true,
   "scripts": {
     "dev": "nuxt",
