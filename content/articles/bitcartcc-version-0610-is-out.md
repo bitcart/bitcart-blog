@@ -8,7 +8,9 @@ createdAt: "2021-12-31T22:28:37"
 
 BitcartCC Version 0.6.1.0 is out! Better search engine, theming support, better store UI and more!
 
-This release contains quite a few bugfixes and new changes, but doesn't contain any breaking changes
+This release contains quite a few bugfixes and new changes, but almost doesn't contain any breaking changes
+
+See migration guide below if you have any issues
 
 During this release we started our efforts to localize and improve customization of BitcartCC parts.
 
@@ -90,3 +92,9 @@ Also the implementation was greatly improved, we now test all use cases and fixe
 - Fixed backups
 - New `get_tx_hash` RPC method to get tx hash of a raw tx
 - Fixed worker start on Mac OS
+
+### Migration guide
+
+If `compose_backend_1` container fails with errors similar to `unable to login without password`, then apply the upgrade helper:
+
+`contrib/upgrades/upgrade-to-0610.sh`
