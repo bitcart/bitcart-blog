@@ -16,14 +16,7 @@
         </a>
         <NuxtLink
           to="/"
-          class="
-            block
-            mt-4
-            lg:inline-block lg:mt-0
-            mr-4
-            text-blue-500
-            font-medium
-          "
+          class="block mt-4 lg:inline-block lg:mt-0 mr-4 text-blue-500 font-medium"
         >
           Blog
         </NuxtLink>
