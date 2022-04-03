@@ -19,7 +19,8 @@
     "@nuxt/content": "^1.14.0",
     "@tailwindcss/typography": "^0.4.1",
     "nuxt": "^2.15.4",
-    "prism-themes": "^1.6.0"
+    "prism-themes": "^1.6.0",
+    "vue-matomo": "^4.1.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.5",

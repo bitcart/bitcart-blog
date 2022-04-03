@@ -31,11 +31,15 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [{ src: "~/plugins/vue-matomo.js", ssr: false }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
    */
+  publicRuntimeConfig: {
+    matomoURL: process.env.MATOMO_URL || "",
+    matomoID: parseInt(process.env.MATOMO_ID || "1"),
+  },
   components: true,
   /*
    ** Nuxt.js dev-modules
