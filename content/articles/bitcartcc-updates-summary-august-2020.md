@@ -30,7 +30,7 @@ If you really need to expose it to the outside, set
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/4a2efb77e331be209ff146cf15bd7b74.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/4a2efb77e331be209ff146cf15bd7b74.png?width=700)
 
 <figcaption>That's how BitcartCC demo is configured, having multiple instances on same server</figcaption>
 
@@ -52,7 +52,7 @@ For example, see how it is set up in our demo:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/92bbf6c2ef988c988957e83ee7f82672.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/92bbf6c2ef988c988957e83ee7f82672.png?width=700)
 
 <figcaption></figcaption>
 
@@ -60,7 +60,7 @@ For example, see how it is set up in our demo:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/c45a79794431049fc36c17631e7f6fd5.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/c45a79794431049fc36c17631e7f6fd5.png?width=700)
 
 <figcaption></figcaption>
 
@@ -96,7 +96,7 @@ Setup notification providers, connect them to your store and receive notificatio
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/39f33d6fa097d10aa381a500a221eb25.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/39f33d6fa097d10aa381a500a221eb25.png?width=700)
 
 <figcaption>Notification providers setup</figcaption>
 
@@ -104,7 +104,7 @@ Setup notification providers, connect them to your store and receive notificatio
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/5987f6068c0c590244d9e21e61b9a3fa.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/5987f6068c0c590244d9e21e61b9a3fa.png?width=700)
 
 <figcaption>After invoice is paid, notification will be sent</figcaption>
 
@@ -112,7 +112,7 @@ Setup notification providers, connect them to your store and receive notificatio
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/de98707ee1c9b4c8f918593708c63f98.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/de98707ee1c9b4c8f918593708c63f98.png?width=700)
 
 <figcaption>Connect notification provider to store to receive notifications!</figcaption>
 
@@ -120,7 +120,7 @@ Setup notification providers, connect them to your store and receive notificatio
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/8c1e787790cc3f8d95971622620dd3af.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/8c1e787790cc3f8d95971622620dd3af.png?width=700)
 
 <figcaption>Telegram notification provider</figcaption>
 
@@ -162,7 +162,7 @@ Below is a group of screenshots showing how to customize templates:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/04cc5e798e8717bcfb9a3ac3ff49f948.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/04cc5e798e8717bcfb9a3ac3ff49f948.png?width=700)
 
 <figcaption></figcaption>
 
@@ -170,7 +170,7 @@ Below is a group of screenshots showing how to customize templates:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/9ee1a7ab467d7dad198dbbdc6c536dfa.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/9ee1a7ab467d7dad198dbbdc6c536dfa.png?width=700)
 
 <figcaption></figcaption>
 
@@ -178,7 +178,7 @@ Below is a group of screenshots showing how to customize templates:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/2fcfd5bf83c322a819863be3dca70748.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/2fcfd5bf83c322a819863be3dca70748.png?width=700)
 
 <figcaption></figcaption>
 
@@ -186,7 +186,7 @@ Below is a group of screenshots showing how to customize templates:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/d9659b7e11ffb2c58dccddaeda367574.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/d9659b7e11ffb2c58dccddaeda367574.png?width=700)
 
 <figcaption></figcaption>
 
@@ -194,7 +194,7 @@ Below is a group of screenshots showing how to customize templates:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/1711bbc1c6e4448d51d9ba7f390b1547.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/1711bbc1c6e4448d51d9ba7f390b1547.png?width=700)
 
 <figcaption></figcaption>
 
@@ -202,7 +202,7 @@ Below is a group of screenshots showing how to customize templates:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/fd0fb016d0d899b25a777b2378d987a3.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/fd0fb016d0d899b25a777b2378d987a3.png?width=700)
 
 <figcaption></figcaption>
 
@@ -210,7 +210,7 @@ Below is a group of screenshots showing how to customize templates:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/3f9dce431e2f1f988f36f9910d0dee35.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/3f9dce431e2f1f988f36f9910d0dee35.png?width=700)
 
 <figcaption></figcaption>
 
@@ -218,7 +218,7 @@ Below is a group of screenshots showing how to customize templates:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/c586d3d7573a8081ffaf91be79cdd912.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/c586d3d7573a8081ffaf91be79cdd912.png?width=700)
 
 <figcaption></figcaption>
 
@@ -226,7 +226,7 @@ Below is a group of screenshots showing how to customize templates:
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/92b12058ddc73cc275aed5249375b818.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/92b12058ddc73cc275aed5249375b818.png?width=700)
 
 <figcaption></figcaption>
 
@@ -329,7 +329,7 @@ So tor support is mostly for convenience, because that way it is possible to run
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/300ad682254ba701baf5bc7a0ca75caa.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/300ad682254ba701baf5bc7a0ca75caa.png?width=700)
 
 <figcaption>Store with tor support</figcaption>
 
@@ -337,7 +337,7 @@ So tor support is mostly for convenience, because that way it is possible to run
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/9a22f0b0f8cfd8421b59137f1b0f3479.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/9a22f0b0f8cfd8421b59137f1b0f3479.png?width=700)
 
 <figcaption>Hidden services information</figcaption>
 
@@ -345,7 +345,7 @@ So tor support is mostly for convenience, because that way it is possible to run
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/742f6c663a011eab98da75e2ca674049.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/742f6c663a011eab98da75e2ca674049.png?width=700)
 
 <figcaption>Admin panel login with tor support</figcaption>
 
@@ -371,7 +371,7 @@ Also it is now possible to change invoice expiration time from default 15 minute
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/dbdedc39c105198c381576940666083a.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/dbdedc39c105198c381576940666083a.png?width=700)
 
 <figcaption></figcaption>
 
@@ -379,7 +379,7 @@ Also it is now possible to change invoice expiration time from default 15 minute
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/136acc828eca5b636854cd3462770b91.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/136acc828eca5b636854cd3462770b91.png?width=700)
 
 <figcaption></figcaption>
 
@@ -387,7 +387,7 @@ Also it is now possible to change invoice expiration time from default 15 minute
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/a880c1227bfdba9a8c9db99275c50779.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/a880c1227bfdba9a8c9db99275c50779.png?width=700)
 
 <figcaption></figcaption>
 
@@ -395,7 +395,7 @@ Also it is now possible to change invoice expiration time from default 15 minute
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/ac0c24a286604d253d37fed4a3c86fb8.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/ac0c24a286604d253d37fed4a3c86fb8.png?width=700)
 
 <figcaption></figcaption>
 
@@ -411,7 +411,7 @@ Also a reload button is added to reload current page's data if needed.
 
 <figure class="image-width-normal">
 
-![](https://sigma.rcimg.net/images/8/9/d/BitcartCC/ad356b26/c7f0fdd5408b91fe0d4dfa02be1ca06c.png)
+![](https://cdn.rcimg.net/BitcartCC/images/ad356b26/c7f0fdd5408b91fe0d4dfa02be1ca06c.png?width=700)
 
 <figcaption></figcaption>
 
