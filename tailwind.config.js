@@ -5,7 +5,13 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
-  mode: "jit",
+  content: [
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+  ],
   theme: {
     screens: {
       xs: "320px",
@@ -68,6 +74,5 @@ module.exports = {
       "3rem": "3rem",
     },
   },
-  variants: {},
   plugins: [require("@tailwindcss/typography")],
 }

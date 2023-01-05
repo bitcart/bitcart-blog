@@ -1,3 +1,10 @@
+import crypto from "crypto"
+
+// Patch for webpack4 on nodejs 17+
+const origCreateHash = crypto.createHash
+crypto.createHash = (algorithm) =>
+  origCreateHash(algorithm === "md4" ? "sha256" : algorithm)
+
 export default {
   telemetry: false,
   /*
@@ -26,7 +33,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ["@/assets/css/main.css"],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -45,10 +52,9 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
+    "@nuxt/postcss8",
     // Doc: https://github.com/nuxt-community/eslint-module
     "@nuxtjs/eslint-module",
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    "@nuxtjs/tailwindcss",
   ],
   /*
    ** Nuxt.js modules
@@ -74,5 +80,11 @@ export default {
    */
   build: {
     extend(config, ctx) {},
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
   },
 }
