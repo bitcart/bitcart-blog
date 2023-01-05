@@ -46,6 +46,8 @@ export default {
   publicRuntimeConfig: {
     matomoURL: process.env.MATOMO_URL || "",
     matomoID: parseInt(process.env.MATOMO_ID || "1"),
+    matomoScriptURL: process.env.MATOMO_SCRIPT_URL || "",
+    matomoActions: process.env.MATOMO_ACTIONS || "",
   },
   components: true,
   /*
