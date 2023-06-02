@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://blog.bitcartcc.com/*"
+  to = "https://blog.bitcart.ai/:splat"
+  status = 301
+  force = true
