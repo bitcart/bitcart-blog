@@ -8,7 +8,7 @@
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
       <div class="lg:flex-grow">
         <a
-          href="https://bitcartcc.com"
+          href="https://bitcart.ai"
           class="block mt-4 lg:inline-block lg:mt-0 mr-4"
           target="_blank"
         >
@@ -21,14 +21,14 @@
           Blog
         </NuxtLink>
         <a
-          href="https://docs.bitcartcc.com"
+          href="https://docs.bitcart.ai"
           class="block mt-4 lg:inline-block lg:mt-0 mr-4"
           target="_blank"
         >
           Docs
         </a>
         <a
-          href="https://github.com/orgs/bitcartcc/projects/1"
+          href="https://github.com/orgs/bitcart/projects/1"
           class="block mt-4 lg:inline-block lg:mt-0"
           target="_blank"
         >

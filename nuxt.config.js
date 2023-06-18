@@ -17,15 +17,15 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: "BitcartCC Blog",
-    titleTemplate: "%s - BitcartCC Official Blog",
+    title: "Bitcart Blog",
+    titleTemplate: "%s - Bitcart Official Blog",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "BitcartCC Official Blog",
+        content: "Bitcart Official Blog",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

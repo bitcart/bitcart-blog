@@ -1,6 +1,6 @@
-# BitcartCC Blog
+# Bitcart Blog
 
-This is the source code for design and articles of [BitcartCC Official Blog](https://blog.bitcartcc.com)
+This is the source code for design and articles of [Bitcart Official Blog](https://blog.bitcart.ai)
 
 ## Build Setup
 

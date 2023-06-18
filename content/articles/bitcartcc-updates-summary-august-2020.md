@@ -70,23 +70,23 @@ For example, see how it is set up in our demo:
 
 Our docker deployment options are now fully documented:
 
-[https://docs.bitcartcc.com/deployment/docker](https://docs.bitcartcc.com/deployment/docker)
+[https://docs.bitcart.ai/deployment/docker](https://docs.bitcart.ai/deployment/docker)
 
 Also first third-party hosting was set up for public usage.
 
 To view full list of third-party BitcartCC hosting, and their advantages and disadvantages, please read:
 
-[https://docs.bitcartcc.com/deployment/thirdpartyhosting](https://docs.bitcartcc.com/deployment/thirdpartyhosting)
+[https://docs.bitcart.ai/deployment/thirdpartyhosting](https://docs.bitcart.ai/deployment/thirdpartyhosting)
 
 A tutorial on how to upgrade manual deployment was added:
 
-[https://docs.bitcartcc.com/deployment/manual#upgrading-manual-deployment](https://docs.bitcartcc.com/deployment/manual#upgrading-manual-deployment)
+[https://docs.bitcart.ai/deployment/manual#upgrading-manual-deployment](https://docs.bitcart.ai/deployment/manual#upgrading-manual-deployment)
 
 Walktrough was updated to include information about new features: notification providers and templates, see more below:
 
-[https://docs.bitcartcc.com/bitcartcc-basics/walkthrough#notification-providers](https://docs.bitcartcc.com/bitcartcc-basics/walkthrough#notification-providers)
+[https://docs.bitcart.ai/bitcartcc-basics/walkthrough#notification-providers](https://docs.bitcart.ai/bitcartcc-basics/walkthrough#notification-providers)
 
-[https://docs.bitcartcc.com/bitcartcc-basics/walkthrough#templates](https://docs.bitcartcc.com/bitcartcc-basics/walkthrough#templates)
+[https://docs.bitcart.ai/bitcartcc-basics/walkthrough#templates](https://docs.bitcart.ai/bitcartcc-basics/walkthrough#templates)
 
 ## Notification providers support
 
@@ -363,9 +363,9 @@ It now has invoice expiration counter.
 
 Also, as checkout page is now improved, it is now possible to use it in other sites!
 
-Each admin panel has `modal/bitcart.js` [script](https://admin.bitcartcc.com/modal/bitcart.js), which can be integrated in other pages and used to open checkout window as an iframe.
+Each admin panel has `modal/bitcart.js` [script](https://admin.bitcart.ai/modal/bitcart.js), which can be integrated in other pages and used to open checkout window as an iframe.
 
-Example usage of that feature can be found at [https://bitcartcc.com](https://bitcartcc.com) donation button ([code](https://github.com/bitcartcc/bitcart-site/blob/master/pages/index.vue#L79))
+Example usage of that feature can be found at [https://bitcart.ai](https://bitcart.ai) donation button ([code](https://github.com/bitcartcc/bitcart-site/blob/master/pages/index.vue#L79))
 
 Also it is now possible to change invoice expiration time from default 15 minutes to any needed value!
 
@@ -533,6 +533,6 @@ BitcartCC is improving and looking forward to contributors to join our welcoming
 
 [Telegram group](https://t.me/bitcartcc)
 
-[Official site](https://bitcartcc.com)
+[Official site](https://bitcart.ai)
 
 [Github](https://github.com/bitcartcc/bitcart)

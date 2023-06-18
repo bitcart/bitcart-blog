@@ -112,7 +112,7 @@ Together with electrum upgrades, BCH-based coins have gained some more feature-p
 
 ### Important: deprecated lunanode installer
 
-Our lunanode installer at https://launch.bitcartcc.com is deprecated. Use BitcartCC configurator instead, it is more feature-complete and can install
+Our lunanode installer at https://launch.bitcart.ai is deprecated. Use BitcartCC configurator instead, it is more feature-complete and can install
 BitcartCC on any server. We might add some hosting provider presets to configurator in the future/
 The lunanode installer will be removed with the next BitcartCC major release: 0.7.0.0. It will then redirect to the configurator.
 

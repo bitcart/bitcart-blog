@@ -22,7 +22,7 @@ Lots of code refactoring, 100% test coverage everywhere!
 
 Removed webhook event delivery method-use websocket instead!
 
-https://sdk.bitcartcc.com/en/latest/events.html#websocket
+https://sdk.bitcart.ai/en/latest/events.html#websocket
 
 It is way better than webhooks
 

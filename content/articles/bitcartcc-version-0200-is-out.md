@@ -35,7 +35,7 @@ Payment expired -> expired
 If payment was detected within the invoice time frame, and the payment expired, it won't be set to expired but instead wait for confirmations.
 
 For more details read this:
-https://docs.bitcartcc.com/guides/transaction-speed
+https://docs.bitcart.ai/guides/transaction-speed
 
 <script async src="https://telegram.org/js/telegram-widget.js?14" data-telegram-post="bitcartcc/3408" data-width="100%"></script>
 
@@ -43,11 +43,11 @@ https://docs.bitcartcc.com/guides/transaction-speed
 
 - Underpaid invoices support. For example, if customer sends from an exchange wallet, it might deduct the fees from amount sent. This way you can accept customer's invoice.
 
-  More details [here](https://docs.bitcartcc.com/support-and-community/faq/stores-faq#what-is-underpaid-percentage)
+  More details [here](https://docs.bitcart.ai/support-and-community/faq/stores-faq#what-is-underpaid-percentage)
 
-- Custom logo support. [Details](https://docs.bitcartcc.com/support-and-community/faq/stores-faq#what-is-custom-logo-link)
-- Dark mode support. [Details](https://docs.bitcartcc.com/support-and-community/faq/stores-faq#what-is-the-use-dark-mode-setting)
-- Recommended fee support. Recommended fee will be displayed in all onchain payments methods. [Details](https://docs.bitcartcc.com/support-and-community/faq/stores-faq#recommended-fee)
+- Custom logo support. [Details](https://docs.bitcart.ai/support-and-community/faq/stores-faq#what-is-custom-logo-link)
+- Dark mode support. [Details](https://docs.bitcart.ai/support-and-community/faq/stores-faq#what-is-the-use-dark-mode-setting)
+- Recommended fee support. Recommended fee will be displayed in all onchain payments methods. [Details](https://docs.bitcart.ai/support-and-community/faq/stores-faq#recommended-fee)
 
 <script async src="https://telegram.org/js/telegram-widget.js?14" data-telegram-post="bitcartcc/3409" data-width="100%"></script>
 
