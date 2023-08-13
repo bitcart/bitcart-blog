@@ -54,7 +54,6 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
-    "@nuxt/postcss8",
     // Doc: https://github.com/nuxt-community/eslint-module
     "@nuxtjs/eslint-module",
   ],
@@ -83,9 +82,11 @@ export default {
   build: {
     extend(config, ctx) {},
     postcss: {
-      plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
+      postcssOptions: {
+        plugins: {
+          tailwindcss: {},
+          autoprefixer: {},
+        },
       },
     },
   },
