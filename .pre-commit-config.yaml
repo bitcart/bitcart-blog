@@ -1,27 +1,16 @@
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+  - repo: builtin
     hooks:
       - id: check-merge-conflict
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
-    hooks:
       - id: end-of-file-fixer
       - id: trailing-whitespace
       - id: mixed-line-ending
-      - id: file-contents-sorter
-        files: >-
-          ^.gitignore$
       - id: check-case-conflict
-      - id: check-shebang-scripts-are-executable
       - id: check-json
       - id: check-toml
       - id: check-yaml
       - id: check-symlinks
-      - id: debug-statements
       - id: fix-byte-order-marker
-      - id: fix-encoding-pragma
-        args: ["--remove"]
       - id: detect-private-key
   - repo: local
     hooks:
