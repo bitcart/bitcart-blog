@@ -1,19 +1,5 @@
-# Bitcart Blog
+# Bitcart Blog (archived)
 
-This is the source code for design and articles of [Bitcart Official Blog](https://blog.bitcart.ai)
+The [Bitcart Blog](https://blog.bitcart.ai) now lives in the [bitcart-frontend](https://github.com/bitcart/bitcart-frontend) monorepo: the app is [`apps/blog`](https://github.com/bitcart/bitcart-frontend/tree/master/apps/blog), and the posts are in [`apps/blog/content/posts`](https://github.com/bitcart/bitcart-frontend/tree/master/apps/blog/content/posts).
 
-## Build Setup
-
-```bash
-# install dependencies
-$ yarn
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production
-$ yarn build
-
-# generate static project
-$ yarn export
-```
+This repository holds the previous Nuxt version of the blog and is no longer maintained.
